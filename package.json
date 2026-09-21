@@ -1,0 +1,8 @@
+{
+  "name": "micro-mlp42-client-showcase",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {"dev": "node site_tools/serve.mjs", "check": "node --check docs/app.js"},
+  "dependencies": {"@google/model-viewer": "4.3.1"}
+}

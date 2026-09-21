@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Micro MLP 42 — Amardeep Enterprise</title>
+  <meta name="description" content="Explore the Micro MLP 42 lapping machine in interactive 3D. View the working assembly, individual pneumatic controls and machine specifications.">
+  <meta name="theme-color" content="#eeefec">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23262d31'/%3E%3Ccircle cx='16' cy='17' r='9' fill='none' stroke='%23eeefec' stroke-width='5'/%3E%3Cpath d='M10 7Q16 2 22 7' fill='none' stroke='%23bd342b' stroke-width='5'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="assets/model-viewer.min.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+<a class="skip" href="#machine">Skip to the 3D machine</a>
+<header class="header">
+  <a class="brand" href="#top" aria-label="Amardeep Enterprise home"><span class="brand-mark" aria-hidden="true">a<span>e</span></span><span>AMARDEEP<span>ENTERPRISE</span></span></a>
+  <nav aria-label="Main navigation"><a href="#details">The machine</a><a href="#specifications">Specifications</a><a class="contact" href="mailto:micro.works9@gmail.com">Get in touch <span aria-hidden="true">↗</span></a></nav>
+</header>
+<main id="top">
+<section class="hero" aria-labelledby="hero-title">
+  <div class="hero-copy"><p class="eyebrow"><span></span> MICRO / MLP 42</p><h1 id="hero-title">Precision.<br>From every<br><em>angle.</em></h1><p class="intro">Meet the Micro MLP 42 lapping machine. Explore its working assembly, pneumatic controls and every considered detail.</p><a class="text-link" href="#machine">Take a closer look <span aria-hidden="true">↗</span></a><div class="hero-meta"><span>LAPPING MACHINE</span><span>AMARDEEP ENTERPRISE</span></div></div>
+  <div class="viewer-wrap" id="machine">
+    <span class="viewer-kicker">01 / INTERACTIVE PRODUCT VIEW</span><span class="viewer-watermark" aria-hidden="true">MLP 42</span>
+    <model-viewer id="viewer" src="assets/micro-mlp42.glb" poster="assets/machine-poster.png" alt="Interactive Micro MLP 42 lapping machine with three pneumatic cylinder stations, a circular working plate and sloped control console. Drag or use arrow keys to rotate; scroll or pinch to zoom." camera-controls touch-action="pan-y" camera-orbit="-25deg 72deg 105%" min-camera-orbit="auto 15deg 38%" max-camera-orbit="auto 90deg 180%" field-of-view="30deg" environment-image="neutral" exposure="1" shadow-intensity="0.7" shadow-softness="0.8" tone-mapping="neutral" interaction-prompt="none" loading="eager">
+      <div slot="progress-bar" class="loading" role="status"><span class="loader-track"><span id="progress"></span></span><span id="loading-label">Preparing your 3D view…</span></div>
+      <button class="poster-button" slot="poster" aria-label="Load interactive 3D machine"><img src="assets/machine-poster.png" alt="Micro MLP 42 lapping machine" width="640" height="800"><span>Explore in 3D <b aria-hidden="true">↗</b></span></button>
+    </model-viewer>
+    <div class="viewer-error" hidden><p>The 3D view couldn’t load. You can still explore the machine details below.</p><button id="retry">Try again</button></div>
+    <div class="viewer-bottom"><p><svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 10a8 8 0 1 1 0 5M4 10V5M4 10h5" stroke="currentColor" stroke-width="1.5"/></svg> Drag to rotate <span>·</span> Scroll to zoom</p><button id="reset" title="Reset 3D camera" aria-label="Reset 3D camera">↺</button></div>
+    <div class="view-tabs" role="group" aria-label="Choose a machine view"><button class="active" data-view="overview" aria-pressed="true">Full machine</button><button data-view="working" aria-pressed="false">Working assembly</button><button data-view="console" aria-pressed="false">Control console</button></div>
+  </div>
+</section>
+<div class="spec-strip" aria-label="Key specifications"><div><span>MODEL</span><strong>MLP 42</strong></div><div><span>SUPPLY</span><strong>415 <small>V</small></strong></div><div><span>FREQUENCY</span><strong>50 <small>Hz</small></strong></div><div><span>ELECTRICAL</span><strong>3 <small>phase</small></strong></div><p>Built around<br><b>the working surface.</b></p></div>
+<section class="details section" id="details" aria-labelledby="details-title">
+  <div class="section-heading"><p class="eyebrow">02 / THE DETAILS</p><h2 id="details-title">Look closer.<br>It’s all connected.</h2><p>From the circular working assembly to the operator console, explore the components that define the machine.</p></div>
+  <div class="detail-grid">
+    <article class="detail-card"><div class="detail-image"><img src="assets/insert.png" alt="Isolated top view of the circular insert, with one central hole and six surrounding holes" width="512" height="512" loading="lazy"></div><div class="detail-copy"><span>01</span><h3>The working insert</h3><p>A circular perforated insert sits within the surrounding ring, beneath the suspended head.</p></div></article>
+    <article class="detail-card"><div class="detail-image"><img src="assets/valve.png" alt="Close-up of a manual pneumatic valve, downward black lever, brass fittings and blue air lines" width="850" height="700" loading="lazy"></div><div class="detail-copy"><span>02</span><h3>Individual pneumatic control</h3><p>Three cylinder stations, each with its own manual valve, lever and connected air lines.</p></div></article>
+    <article class="detail-card"><div class="detail-image"><img src="assets/console.png" alt="Sloped control panel with start and stop buttons, an emergency control and the original Micro nameplate" width="1400" height="963" loading="lazy"></div><div class="detail-copy"><span>03</span><h3>At the operator’s hand</h3><p>A sloped console brings the machine’s buttons, selectors and speed control together.</p></div></article>
+  </div>
+</section>
+<section class="specifications section" id="specifications" aria-labelledby="spec-title"><div><p class="eyebrow">03 / MACHINE SPECIFICATIONS</p><h2 id="spec-title">The essentials.<br>Clearly defined.</h2><p>Specifications shown on the supplied machine nameplate.</p></div><dl><div><dt>Manufacturer</dt><dd>Amardeep Enterprise</dd></div><div><dt>Machine</dt><dd>Micro Lapping Machine</dd></div><div><dt>Model</dt><dd>MLP 42</dd></div><div><dt>Supply voltage</dt><dd>415 V</dd></div><div><dt>Frequency</dt><dd>50 Hz</dd></div><div><dt>Phase</dt><dd>3 phase</dd></div><div><dt>Serial number</dt><dd>297</dd></div></dl></section>
+<section class="closing"><p class="eyebrow">LET’S TALK ABOUT YOUR APPLICATION</p><h2>Your next step<br>starts with a conversation.</h2><a href="mailto:micro.works9@gmail.com">micro.works9@gmail.com <span aria-hidden="true">↗</span></a><a class="phone" href="tel:+919376175732">+91 93761 75732</a></section>
+</main><footer><span>AMARDEEP ENTERPRISE</span><p>Lapping &amp; polishing machines</p><a href="#top">Back to top ↑</a></footer>
+</body></html>
