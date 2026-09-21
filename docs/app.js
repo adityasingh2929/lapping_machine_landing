@@ -1,8 +1,8 @@
 const viewer = document.querySelector('#viewer');
 const views = {
   overview: {orbit:'-25deg 72deg 105%', target:'auto auto auto', fov:'30deg'},
-  working: {orbit:'-30deg 38deg 1.8m', target:'0m 0.98m 0.05m', fov:'30deg'},
-  console: {orbit:'-8deg 55deg 1.5m', target:'0m 0.64m 0.96m', fov:'30deg'}
+  working: {orbit:'-30deg 38deg 2.8m', target:'0m 1.02m 0.05m', fov:'30deg'},
+  console: {orbit:'-8deg 55deg 2.5m', target:'0m 0.64m 0.96m', fov:'30deg'}
 };
 function setView(name) {
   const view = views[name];
