@@ -1,0 +1,18 @@
+{
+ "1":[{"object":"Mounting_Foot","point":"top","photo":[330,1500]},{"object":"Mounting_Foot.002","point":"top","photo":[1045,1490]}],
+ "2":[{"object":"Mounting_Foot","point":"top","photo":[350,1508]},{"object":"Mounting_Foot.002","point":"top","photo":[990,1500]}],
+ "3":[{"object":"Mounting_Foot","point":"top","photo":[373,1400]},{"object":"Mounting_Foot.002","point":"top","photo":[1017,1380]}],
+ "4":[{"object":"Mounting_Foot","point":"top","photo":[635,1495]},{"object":"Mounting_Foot.001","point":"top","photo":[230,1240]}],
+ "5":[{"object":"Mounting_Foot.001","point":"top","photo":[260,1480]},{"object":"Mounting_Foot","point":"top","photo":[980,1480]}],
+ "6":[{"object":"Mounting_Foot.001","point":"top","photo":[650,1535]},{"object":"Mounting_Foot.003","point":"top","photo":[245,1270]}],
+ "7":[{"object":"Mounting_Foot.003","point":"top","photo":[340,1495]},{"object":"Mounting_Foot.001","point":"top","photo":[1000,1500]}],
+ "8":[{"object":"Mounting_Foot.003","point":"top","photo":[535,1480]},{"object":"Mounting_Foot.001","point":"top","photo":[1120,1235]}],
+ "9":[{"object":"Mounting_Foot.002","point":"top","photo":[316,1565]},{"object":"Mounting_Foot.003","point":"top","photo":[1145,1560]}],
+ "10":[{"object":"Mounting_Foot.002","point":"top","photo":[775,1560]},{"object":"Mounting_Foot.003","point":"top","photo":[1140,1210]}],
+ "11":[{"object":"Mounting_Foot","point":"top","photo":[290,1440]},{"object":"Mounting_Foot.002","point":"top","photo":[1028,1422]}],
+ "12":[{"object":"PN_Drain_Elbow","photo":[555,1220]},{"object":"PN_Lubricator_Adjuster","point":"top","photo":[854,631]}],
+ "13":[{"object":"CC_Left_Grille_2_Frame","photo":[520,1080]},{"object":"CC_Left_Grille_1_Frame","photo":[526,1365]}],
+ "14":[{"object":"CC_Timer_Bezel","photo":[892,466]},{"object":"CC_Indicator_Red_Cap","point":"top","photo":[991,752]},{"object":"CC_Panel_Latch_1_Wing","point":"top","photo":[420,353]},{"object":"CC_Speed_Knob","point":"top","photo":[812,1255]}],
+ "15":[{"object":"MD_S1_Bracket_Bolt_0_Socket_Head","point":"top","photo":[165,1310]},{"object":"MD_S1_Bracket_Bolt_1_Socket_Head","point":"top","photo":[480,1235]}],
+ "16":[{"object":"MD_S1_Bracket_Bolt_0_Socket_Head","point":"top","photo":[500,980]},{"object":"MD_S1_Bracket_Bolt_1_Socket_Head","point":"top","photo":[715,944]}]
+}

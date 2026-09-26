@@ -1,0 +1,9 @@
+00:02.906  blend            | Read blend: "C:\Users\2023a\Downloads\lapping_machine\blender_models\lapping_machine_blockout.blend"
+00:12.015  image.write      | ERROR OpenImageIO write failed: Could not open file "\.thumbnails\large\blender_16184_ebe094077cbbbbc5996745b2bf0871c7.png.png"
+00:12.344  cycles           | WARNING HIPEW initialization failed: Error opening HIP dynamic library
+00:32.547  render           | Saved: 'C:\Users\2023a\Downloads\lapping_machine\blender_models\reference_comparisons\REF_14.png'
+Info: Saved as "lapping_machine_blockout.blend"
+REFERENCE_RENDERED 14
+00:52.734  render           | Saved: 'C:\Users\2023a\Downloads\lapping_machine\blender_models\reference_comparisons\REF_16.png'
+REFERENCE_RENDERED 16
+Blender 5.2.0 LTS (hash fbe6228777e7 built 2026-07-14 01:35:40)

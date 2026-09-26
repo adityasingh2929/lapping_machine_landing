@@ -1,0 +1,34 @@
+{
+  "existing_objects_unchanged": 905,
+  "pneumatic_parts": 156,
+  "editable_hoses": 9,
+  "rerun_duplicate_check": true,
+  "clearance_conflicts": [],
+  "approximate": "Under-beam link and obscured bends; hidden distribution circuit omitted. External supply intentionally shortened.",
+  "mechanical_objects": 258,
+  "cutters": 121,
+  "mechanical_rerun_no_duplicates": true,
+  "hose_curves_softened_this_run": 0,
+  "ring_checks": [
+    {
+      "station": 1,
+      "open_center": true,
+      "outer_radius": 0.145,
+      "head_clearance": 0.111
+    },
+    {
+      "station": 2,
+      "open_center": true,
+      "outer_radius": 0.145,
+      "head_clearance": 0.111
+    },
+    {
+      "station": 3,
+      "open_center": true,
+      "outer_radius": 0.145,
+      "head_clearance": 0.111
+    }
+  ],
+  "source_meshes_preserved": true,
+  "approximate_mechanical": "Fastener sizes, slot lengths and ring slot angular placement; one exposed plate division only. Threads are economical circular ridges."
+}

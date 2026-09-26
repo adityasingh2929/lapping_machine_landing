@@ -1,0 +1,928 @@
+[
+  {
+    "name": "Circular_Working_Plate",
+    "lo": [
+      -0.33000001311302185,
+      -0.33000001311302185,
+      0.7350000143051147
+    ],
+    "hi": [
+      0.33000001311302185,
+      0.33000001311302185,
+      0.746999979019165
+    ],
+    "hidden": false,
+    "mods": [
+      [
+        "Modest edge bevel",
+        "BEVEL",
+        ""
+      ],
+      [
+        "Weighted corner normals",
+        "WEIGHTED_NORMAL",
+        ""
+      ],
+      [
+        "MD_Cut_MD_Plate_Visible_Division",
+        "BOOLEAN",
+        "MD_Plate_Visible_Division"
+      ]
+    ],
+    "verts": 192
+  },
+  {
+    "name": "IF_S1_Perforated_Insert",
+    "lo": [
+      -0.12600000202655792,
+      -0.30573999881744385,
+      0.746999979019165
+    ],
+    "hi": [
+      0.12600000202655792,
+      -0.053739994764328,
+      0.7549999952316284
+    ],
+    "hidden": false,
+    "mods": [
+      [
+        "Through hole 1",
+        "BOOLEAN",
+        "IF_S1_Insert_Opening_0"
+      ],
+      [
+        "Through hole 2",
+        "BOOLEAN",
+        "IF_S1_Insert_Opening_1"
+      ],
+      [
+        "Through hole 3",
+        "BOOLEAN",
+        "IF_S1_Insert_Opening_2"
+      ],
+      [
+        "Through hole 4",
+        "BOOLEAN",
+        "IF_S1_Insert_Opening_3"
+      ],
+      [
+        "Through hole 5",
+        "BOOLEAN",
+        "IF_S1_Insert_Opening_4"
+      ],
+      [
+        "Through hole 6",
+        "BOOLEAN",
+        "IF_S1_Insert_Opening_5"
+      ],
+      [
+        "Through hole 7",
+        "BOOLEAN",
+        "IF_S1_Insert_Opening_6"
+      ]
+    ],
+    "verts": 256
+  },
+  {
+    "name": "MD_Plate_Visible_Division",
+    "lo": [
+      0.24500000476837158,
+      -0.00039999998989515007,
+      0.746399998664856
+    ],
+    "hi": [
+      0.36500000953674316,
+      0.00039999998989515007,
+      0.7475999593734741
+    ],
+    "hidden": true,
+    "mods": [],
+    "verts": 8
+  },
+  {
+    "name": "MD_Rear_Adjustment_Plate_0",
+    "lo": [
+      -0.09650000184774399,
+      0.578000009059906,
+      0.12000000476837158
+    ],
+    "hi": [
+      -0.051500000059604645,
+      0.5899999737739563,
+      0.3199999928474426
+    ],
+    "hidden": false,
+    "mods": [
+      [
+        "Detail edge bevel",
+        "BEVEL",
+        ""
+      ],
+      [
+        "MD_Cut_MD_Rear_Adjustment_Slot_0_0",
+        "BOOLEAN",
+        "MD_Rear_Adjustment_Slot_0_0"
+      ],
+      [
+        "MD_Cut_MD_Rear_Adjustment_Slot_0_1",
+        "BOOLEAN",
+        "MD_Rear_Adjustment_Slot_0_1"
+      ]
+    ],
+    "verts": 8
+  },
+  {
+    "name": "MD_Rear_Adjustment_Plate_1",
+    "lo": [
+      0.051500000059604645,
+      0.578000009059906,
+      0.12000000476837158
+    ],
+    "hi": [
+      0.09650000184774399,
+      0.5899999737739563,
+      0.3199999928474426
+    ],
+    "hidden": false,
+    "mods": [
+      [
+        "Detail edge bevel",
+        "BEVEL",
+        ""
+      ],
+      [
+        "MD_Cut_MD_Rear_Adjustment_Slot_1_0",
+        "BOOLEAN",
+        "MD_Rear_Adjustment_Slot_1_0"
+      ],
+      [
+        "MD_Cut_MD_Rear_Adjustment_Slot_1_1",
+        "BOOLEAN",
+        "MD_Rear_Adjustment_Slot_1_1"
+      ]
+    ],
+    "verts": 8
+  },
+  {
+    "name": "S1_Bracket_Radial_Arm",
+    "lo": [
+      0.09229278564453125,
+      -0.2800792455673218,
+      0.7489999532699585
+    ],
+    "hi": [
+      0.15096443891525269,
+      -0.23237758874893188,
+      0.7630000114440918
+    ],
+    "hidden": false,
+    "mods": [
+      [
+        "Modest edge bevel",
+        "BEVEL",
+        ""
+      ],
+      [
+        "Weighted corner normals",
+        "WEIGHTED_NORMAL",
+        ""
+      ]
+    ],
+    "verts": 8
+  },
+  {
+    "name": "S1_Head_Flange",
+    "lo": [
+      -0.048875000327825546,
+      -0.22861500084400177,
+      0.9944999814033508
+    ],
+    "hi": [
+      0.048875000327825546,
+      -0.13086499273777008,
+      1.003499984741211
+    ],
+    "hidden": false,
+    "mods": [
+      [
+        "Modest edge bevel",
+        "BEVEL",
+        ""
+      ],
+      [
+        "Weighted corner normals",
+        "WEIGHTED_NORMAL",
+        ""
+      ]
+    ],
+    "verts": 192
+  },
+  {
+    "name": "S1_Head_Hub",
+    "lo": [
+      -0.02592500112950802,
+      -0.2056649923324585,
+      1.003499984741211
+    ],
+    "hi": [
+      0.02592500112950802,
+      -0.15381500124931335,
+      1.0299999713897705
+    ],
+    "hidden": false,
+    "mods": [
+      [
+        "Modest edge bevel",
+        "BEVEL",
+        ""
+      ],
+      [
+        "Weighted corner normals",
+        "WEIGHTED_NORMAL",
+        ""
+      ]
+    ],
+    "verts": 192
+  },
+  {
+    "name": "S1_Head_Lower_Disk",
+    "lo": [
+      -0.12600000202655792,
+      -0.30573999881744385,
+      0.9409999847412109
+    ],
+    "hi": [
+      0.12600000202655792,
+      -0.053739994764328,
+      0.9670000076293945
+    ],
+    "hidden": false,
+    "mods": [
+      [
+        "Modest edge bevel",
+        "BEVEL",
+        ""
+      ],
+      [
+        "Weighted corner normals",
+        "WEIGHTED_NORMAL",
+        ""
+      ],
+      [
+        "MD_Cut_MD_S1_Disk_Rim_Hole",
+        "BOOLEAN",
+        "MD_S1_Disk_Rim_Hole"
+      ]
+    ],
+    "verts": 192
+  },
+  {
+    "name": "S1_Head_Raised_Step",
+    "lo": [
+      -0.07001499831676483,
+      -0.24975499510765076,
+      0.9670000076293945
+    ],
+    "hi": [
+      0.07001499831676483,
+      -0.1097249984741211,
+      0.9900000095367432
+    ],
+    "hidden": false,
+    "mods": [
+      [
+        "Modest edge bevel",
+        "BEVEL",
+        ""
+      ],
+      [
+        "Weighted corner normals",
+        "WEIGHTED_NORMAL",
+        ""
+      ]
+    ],
+    "verts": 192
+  },
+  {
+    "name": "S1_Hollow_Ring",
+    "lo": [
+      -0.14499999582767487,
+      -0.3247399926185608,
+      0.746999979019165
+    ],
+    "hi": [
+      0.14499999582767487,
+      -0.03474000096321106,
+      0.8299999833106995
+    ],
+    "hidden": false,
+    "mods": [
+      [
+        "Modest edge bevel",
+        "BEVEL",
+        ""
+      ],
+      [
+        "Weighted corner normals",
+        "WEIGHTED_NORMAL",
+        ""
+      ],
+      [
+        "MD_Cut_MD_S1_Ring_Groove_0",
+        "BOOLEAN",
+        "MD_S1_Ring_Groove_0"
+      ],
+      [
+        "MD_Cut_MD_S1_Ring_Groove_1",
+        "BOOLEAN",
+        "MD_S1_Ring_Groove_1"
+      ],
+      [
+        "MD_Cut_MD_S1_Ring_Vertical_Slot_0",
+        "BOOLEAN",
+        "MD_S1_Ring_Vertical_Slot_0"
+      ],
+      [
+        "MD_Cut_MD_S1_Ring_Vertical_Slot_1",
+        "BOOLEAN",
+        "MD_S1_Ring_Vertical_Slot_1"
+      ],
+      [
+        "MD_Cut_MD_S1_Ring_Vertical_Slot_2",
+        "BOOLEAN",
+        "MD_S1_Ring_Vertical_Slot_2"
+      ]
+    ],
+    "verts": 512
+  },
+  {
+    "name": "S1_Roller_Bracket",
+    "lo": [
+      0.0015221767826005816,
+      -0.4272967576980591,
+      0.7709999084472656
+    ],
+    "hi": [
+      0.23224031925201416,
+      0.044961150735616684,
+      0.7850000858306885
+    ],
+    "hidden": false,
+    "mods": [
+      [
+        "Continuous slotted carrier",
+        "BOOLEAN",
+        "MD_S1_Bracket_Adjustment_Plate"
+      ],
+      [
+        "Focused seating MD_S1_Roller_2_Seat",
+        "BOOLEAN",
+        "MD_S1_Roller_2_Seat"
+      ],
+      [
+        "Focused seating MD_S1_Roller_1_Seat",
+        "BOOLEAN",
+        "MD_S1_Roller_1_Seat"
+      ],
+      [
+        "Focused MD_S1_Bracket_Long_Slot",
+        "BOOLEAN",
+        "MD_S1_Bracket_Long_Slot"
+      ],
+      [
+        "Ring envelope 1",
+        "BOOLEAN",
+        "MD_S1_Carrier_Ring_Clearance"
+      ],
+      [
+        "Ring envelope 2",
+        "BOOLEAN",
+        "MD_S2_Carrier_Ring_Clearance"
+      ],
+      [
+        "Ring envelope 3",
+        "BOOLEAN",
+        "MD_S3_Carrier_Ring_Clearance"
+      ],
+      [
+        "Focused edge finish",
+        "BEVEL",
+        ""
+      ],
+      [
+        "Focused normals",
+        "WEIGHTED_NORMAL",
+        ""
+      ]
+    ],
+    "verts": 16
+  },
+  {
+    "name": "S2_Bracket_Radial_Arm",
+    "lo": [
+      -0.31321433186531067,
+      -0.007521444000303745,
+      0.7489999532699585
+    ],
+    "hi": [
+      -0.25221505761146545,
+      0.05308292806148529,
+      0.7630000114440918
+    ],
+    "hidden": false,
+    "mods": [
+      [
+        "Modest edge bevel",
+        "BEVEL",
+        ""
+      ],
+      [
+        "Weighted corner normals",
+        "WEIGHTED_NORMAL",
+        ""
+      ]
+    ],
+    "verts": 8
+  },
+  {
+    "name": "S2_Head_Flange",
+    "lo": [
+      -0.20453457534313202,
+      0.040994998067617416,
+      0.9944999814033508
+    ],
+    "hi": [
+      -0.10678456723690033,
+      0.1387450098991394,
+      1.003499984741211
+    ],
+    "hidden": false,
+    "mods": [
+      [
+        "Modest edge bevel",
+        "BEVEL",
+        ""
+      ],
+      [
+        "Weighted corner normals",
+        "WEIGHTED_NORMAL",
+        ""
+      ]
+    ],
+    "verts": 192
+  },
+  {
+    "name": "S2_Head_Hub",
+    "lo": [
+      -0.18158456683158875,
+      0.0639449954032898,
+      1.003499984741211
+    ],
+    "hi": [
+      -0.1297345608472824,
+      0.11579500138759613,
+      1.0299999713897705
+    ],
+    "hidden": false,
+    "mods": [
+      [
+        "Modest edge bevel",
+        "BEVEL",
+        ""
+      ],
+      [
+        "Weighted corner normals",
+        "WEIGHTED_NORMAL",
+        ""
+      ]
+    ],
+    "verts": 192
+  },
+  {
+    "name": "S2_Head_Lower_Disk",
+    "lo": [
+      -0.2816595733165741,
+      -0.03613000363111496,
+      0.9409999847412109
+    ],
+    "hi": [
+      -0.029659569263458252,
+      0.2158699929714203,
+      0.9670000076293945
+    ],
+    "hidden": false,
+    "mods": [
+      [
+        "Modest edge bevel",
+        "BEVEL",
+        ""
+      ],
+      [
+        "Weighted corner normals",
+        "WEIGHTED_NORMAL",
+        ""
+      ],
+      [
+        "MD_Cut_MD_S2_Disk_Rim_Hole",
+        "BOOLEAN",
+        "MD_S2_Disk_Rim_Hole"
+      ]
+    ],
+    "verts": 192
+  },
+  {
+    "name": "S2_Head_Raised_Step",
+    "lo": [
+      -0.225674569606781,
+      0.01985500007867813,
+      0.9670000076293945
+    ],
+    "hi": [
+      -0.08564456552267075,
+      0.1598849892616272,
+      0.9900000095367432
+    ],
+    "hidden": false,
+    "mods": [
+      [
+        "Modest edge bevel",
+        "BEVEL",
+        ""
+      ],
+      [
+        "Weighted corner normals",
+        "WEIGHTED_NORMAL",
+        ""
+      ]
+    ],
+    "verts": 192
+  },
+  {
+    "name": "S2_Hollow_Ring",
+    "lo": [
+      -0.30065956711769104,
+      -0.0551300011575222,
+      0.746999979019165
+    ],
+    "hi": [
+      -0.010659569874405861,
+      0.23486998677253723,
+      0.8299999833106995
+    ],
+    "hidden": false,
+    "mods": [
+      [
+        "Modest edge bevel",
+        "BEVEL",
+        ""
+      ],
+      [
+        "Weighted corner normals",
+        "WEIGHTED_NORMAL",
+        ""
+      ],
+      [
+        "MD_Cut_MD_S2_Ring_Groove_0",
+        "BOOLEAN",
+        "MD_S2_Ring_Groove_0"
+      ],
+      [
+        "MD_Cut_MD_S2_Ring_Groove_1",
+        "BOOLEAN",
+        "MD_S2_Ring_Groove_1"
+      ],
+      [
+        "MD_Cut_MD_S2_Ring_Vertical_Slot_0",
+        "BOOLEAN",
+        "MD_S2_Ring_Vertical_Slot_0"
+      ],
+      [
+        "MD_Cut_MD_S2_Ring_Vertical_Slot_1",
+        "BOOLEAN",
+        "MD_S2_Ring_Vertical_Slot_1"
+      ],
+      [
+        "MD_Cut_MD_S2_Ring_Vertical_Slot_2",
+        "BOOLEAN",
+        "MD_S2_Ring_Vertical_Slot_2"
+      ]
+    ],
+    "verts": 512
+  },
+  {
+    "name": "S2_Roller_Bracket",
+    "lo": [
+      -0.435957670211792,
+      -0.11885280162096024,
+      0.7709999680519104
+    ],
+    "hi": [
+      0.021306948736310005,
+      0.16695261001586914,
+      0.7850000858306885
+    ],
+    "hidden": false,
+    "mods": [
+      [
+        "Focused seating MD_S2_Roller_2_Seat",
+        "BOOLEAN",
+        "MD_S2_Roller_2_Seat"
+      ],
+      [
+        "Focused seating MD_S2_Roller_1_Seat",
+        "BOOLEAN",
+        "MD_S2_Roller_1_Seat"
+      ],
+      [
+        "Focused MD_S2_Bracket_Long_Slot",
+        "BOOLEAN",
+        "MD_S2_Bracket_Long_Slot"
+      ],
+      [
+        "Focused MD_S2_Carrier_Strip_Clearance",
+        "BOOLEAN",
+        "MD_S2_Carrier_Strip_Clearance"
+      ],
+      [
+        "Ring envelope 1",
+        "BOOLEAN",
+        "MD_S1_Carrier_Ring_Clearance"
+      ],
+      [
+        "Ring envelope 2",
+        "BOOLEAN",
+        "MD_S2_Carrier_Ring_Clearance"
+      ],
+      [
+        "Ring envelope 3",
+        "BOOLEAN",
+        "MD_S3_Carrier_Ring_Clearance"
+      ],
+      [
+        "Focused edge finish",
+        "BEVEL",
+        ""
+      ],
+      [
+        "Focused normals",
+        "WEIGHTED_NORMAL",
+        ""
+      ]
+    ],
+    "verts": 16
+  },
+  {
+    "name": "S3_Bracket_Radial_Arm",
+    "lo": [
+      0.13793708384037018,
+      0.20447145402431488,
+      0.7489999532699585
+    ],
+    "hi": [
+      0.18423540890216827,
+      0.26242363452911377,
+      0.7630000114440918
+    ],
+    "hidden": false,
+    "mods": [
+      [
+        "Modest edge bevel",
+        "BEVEL",
+        ""
+      ],
+      [
+        "Weighted corner normals",
+        "WEIGHTED_NORMAL",
+        ""
+      ]
+    ],
+    "verts": 8
+  },
+  {
+    "name": "S3_Head_Flange",
+    "lo": [
+      0.10678456723690033,
+      0.040994998067617416,
+      0.9944999814033508
+    ],
+    "hi": [
+      0.20453457534313202,
+      0.1387450098991394,
+      1.003499984741211
+    ],
+    "hidden": false,
+    "mods": [
+      [
+        "Modest edge bevel",
+        "BEVEL",
+        ""
+      ],
+      [
+        "Weighted corner normals",
+        "WEIGHTED_NORMAL",
+        ""
+      ]
+    ],
+    "verts": 192
+  },
+  {
+    "name": "S3_Head_Hub",
+    "lo": [
+      0.1297345608472824,
+      0.0639449954032898,
+      1.003499984741211
+    ],
+    "hi": [
+      0.18158456683158875,
+      0.11579500138759613,
+      1.0299999713897705
+    ],
+    "hidden": false,
+    "mods": [
+      [
+        "Modest edge bevel",
+        "BEVEL",
+        ""
+      ],
+      [
+        "Weighted corner normals",
+        "WEIGHTED_NORMAL",
+        ""
+      ]
+    ],
+    "verts": 192
+  },
+  {
+    "name": "S3_Head_Lower_Disk",
+    "lo": [
+      0.029659569263458252,
+      -0.03613000363111496,
+      0.9409999847412109
+    ],
+    "hi": [
+      0.2816595733165741,
+      0.2158699929714203,
+      0.9670000076293945
+    ],
+    "hidden": false,
+    "mods": [
+      [
+        "Modest edge bevel",
+        "BEVEL",
+        ""
+      ],
+      [
+        "Weighted corner normals",
+        "WEIGHTED_NORMAL",
+        ""
+      ],
+      [
+        "MD_Cut_MD_S3_Disk_Rim_Hole",
+        "BOOLEAN",
+        "MD_S3_Disk_Rim_Hole"
+      ]
+    ],
+    "verts": 192
+  },
+  {
+    "name": "S3_Head_Raised_Step",
+    "lo": [
+      0.08564456552267075,
+      0.01985500007867813,
+      0.9670000076293945
+    ],
+    "hi": [
+      0.225674569606781,
+      0.1598849892616272,
+      0.9900000095367432
+    ],
+    "hidden": false,
+    "mods": [
+      [
+        "Modest edge bevel",
+        "BEVEL",
+        ""
+      ],
+      [
+        "Weighted corner normals",
+        "WEIGHTED_NORMAL",
+        ""
+      ]
+    ],
+    "verts": 192
+  },
+  {
+    "name": "S3_Hollow_Ring",
+    "lo": [
+      0.010659569874405861,
+      -0.0551300011575222,
+      0.746999979019165
+    ],
+    "hi": [
+      0.30065956711769104,
+      0.23486998677253723,
+      0.8299999833106995
+    ],
+    "hidden": false,
+    "mods": [
+      [
+        "Modest edge bevel",
+        "BEVEL",
+        ""
+      ],
+      [
+        "Weighted corner normals",
+        "WEIGHTED_NORMAL",
+        ""
+      ],
+      [
+        "MD_Cut_MD_S3_Ring_Groove_0",
+        "BOOLEAN",
+        "MD_S3_Ring_Groove_0"
+      ],
+      [
+        "MD_Cut_MD_S3_Ring_Groove_1",
+        "BOOLEAN",
+        "MD_S3_Ring_Groove_1"
+      ],
+      [
+        "MD_Cut_MD_S3_Ring_Vertical_Slot_0",
+        "BOOLEAN",
+        "MD_S3_Ring_Vertical_Slot_0"
+      ],
+      [
+        "MD_Cut_MD_S3_Ring_Vertical_Slot_1",
+        "BOOLEAN",
+        "MD_S3_Ring_Vertical_Slot_1"
+      ],
+      [
+        "MD_Cut_MD_S3_Ring_Vertical_Slot_2",
+        "BOOLEAN",
+        "MD_S3_Ring_Vertical_Slot_2"
+      ]
+    ],
+    "verts": 512
+  },
+  {
+    "name": "S3_Roller_Bracket",
+    "lo": [
+      -0.07216347754001617,
+      -0.011422792449593544,
+      0.7709999680519104
+    ],
+    "hi": [
+      0.31545698642730713,
+      0.32780367136001587,
+      0.7850000858306885
+    ],
+    "hidden": false,
+    "mods": [
+      [
+        "Focused seating MD_S3_Roller_2_Seat",
+        "BOOLEAN",
+        "MD_S3_Roller_2_Seat"
+      ],
+      [
+        "Focused seating MD_S3_Roller_1_Seat",
+        "BOOLEAN",
+        "MD_S3_Roller_1_Seat"
+      ],
+      [
+        "Focused MD_S3_Bracket_Long_Slot",
+        "BOOLEAN",
+        "MD_S3_Bracket_Long_Slot"
+      ],
+      [
+        "Focused MD_S3_Carrier_Strip_Clearance",
+        "BOOLEAN",
+        "MD_S3_Carrier_Strip_Clearance"
+      ],
+      [
+        "Ring envelope 1",
+        "BOOLEAN",
+        "MD_S1_Carrier_Ring_Clearance"
+      ],
+      [
+        "Ring envelope 2",
+        "BOOLEAN",
+        "MD_S2_Carrier_Ring_Clearance"
+      ],
+      [
+        "Ring envelope 3",
+        "BOOLEAN",
+        "MD_S3_Carrier_Ring_Clearance"
+      ],
+      [
+        "Focused edge finish",
+        "BEVEL",
+        ""
+      ],
+      [
+        "Focused normals",
+        "WEIGHTED_NORMAL",
+        ""
+      ]
+    ],
+    "verts": 16
+  }
+]

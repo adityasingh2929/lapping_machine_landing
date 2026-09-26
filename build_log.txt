@@ -1,0 +1,29 @@
+C:\Users\2023a\Downloads\lapping_machine\blender_models\generate_blockout.py:83: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat.use_nodes = True
+C:\Users\2023a\Downloads\lapping_machine\blender_models\generate_blockout.py:297: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world.use_nodes=True;world.node_tree.nodes['Background'].inputs[0].default_value=(.35,.39,.45,1)
+00:09.078  image.write      | ERROR OpenImageIO write failed: Could not open file "\.thumbnails\large\blender_17900_ebe094077cbbbbc5996745b2bf0871c7.png.png"
+01:03.203  render           | Saved: 'C:\Users\2023a\Downloads\lapping_machine\blender_models\Camera_Front.png'
+01:42.875  render           | Saved: 'C:\Users\2023a\Downloads\lapping_machine\blender_models\Camera_Rear.png'
+02:42.531  render           | Saved: 'C:\Users\2023a\Downloads\lapping_machine\blender_models\Camera_Left.png'
+03:42.390  render           | Saved: 'C:\Users\2023a\Downloads\lapping_machine\blender_models\Camera_Right.png'
+05:08.890  render           | Saved: 'C:\Users\2023a\Downloads\lapping_machine\blender_models\Camera_Top.png'
+06:23.297  render           | Saved: 'C:\Users\2023a\Downloads\lapping_machine\blender_models\Camera_ThreeQuarter_Front.png'
+07:10.656  render           | Saved: 'C:\Users\2023a\Downloads\lapping_machine\blender_models\Camera_ThreeQuarter_Rear.png'
+Extensions: writing cache failed ([Errno 13] Permission denied: 'C:\\Users\\2023a\\AppData\\Roaming\\Blender Foundation\\Blender\\5.2\\extensions\\.cache\\compat.dat').
+addon_utils.disable: bl_ext.lab_blender_org.mcp not enabled
+Info: Saved as "lapping_machine_blockout.blend"
+BLOCKOUT_CHECKS_OK
+S1 plate edge margin: 0.03000 m
+S2 plate edge margin: 0.03000 m
+S1-S2 ring gap: 0.03909 m
+S3 plate edge margin: 0.03000 m
+S1-S3 ring gap: 0.03909 m
+S2-S3 ring gap: 0.03909 m
+Head clearance: 0.07300 m
+All head/shaft/cylinder XY centers checked against shared station positions.
+Columns outside tabletop; console clears front column.
+Upper connections are provisional, not verified concealed fabrication.
+Blender 5.2.0 LTS (hash fbe6228777e7 built 2026-07-14 01:35:40)
+
+Blender quit

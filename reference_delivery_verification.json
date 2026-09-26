@@ -1,0 +1,11 @@
+{
+  "views": 16,
+  "all_source_and_render_hashes_match": true,
+  "all_renders_match_reopened_blend": true,
+  "common_geometry_sha256": "e6ac953a8c79b9671c96a3b6169bed82544b4ffb79fe47e9a0851e2076a3ac9f",
+  "blend_sha256": "56127073ca910fdc5cde2c7dafa62694cbd4fce9b8e703573ffa3f482a162706",
+  "correction_rerun_geometry_unchanged": true,
+  "photo14_original_orientation_and_aspect_retained": true,
+  "inspection_record": "reference_review_notes.json",
+  "acceptance": "Visible mismatches remain; not an exact-match certification."
+}

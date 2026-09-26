@@ -1,0 +1,13 @@
+00:04.187  blend            | Read blend: "C:\Users\2023a\Downloads\lapping_machine\blender_models\lapping_machine_blockout.blend"
+C:\Users\2023a\Downloads\lapping_machine\blender_models\generate_blockout.py:779: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.get(name) or bpy.data.materials.new(name);m.use_nodes=True
+00:45.203  image.write      | ERROR OpenImageIO write failed: Could not open file "\.thumbnails\large\blender_20672_ebe094077cbbbbc5996745b2bf0871c7.png.png"
+00:59.062  cycles           | WARNING Could not open database file: C:\Users\2023a\AppData\Local/NVIDIA/OptixCache/optix7cache.db
+                            | Unable to initialize the OptiX cache database at path C:\Users\2023a\AppData\Local/NVIDIA/OptixCache/optix7cache.db. Delete or rename the file if this problem persists.
+01:21.187  render           | Saved: 'C:\Users\2023a\Downloads\lapping_machine\blender_models\insert_preview.png'
+01:34.656  cycles           | WARNING Could not open database file: C:\Users\2023a\AppData\Local/NVIDIA/OptixCache/optix7cache.db
+                            | Unable to initialize the OptiX cache database at path C:\Users\2023a\AppData\Local/NVIDIA/OptixCache/optix7cache.db. Delete or rename the file if this problem persists.
+01:56.062  render           | Saved: 'C:\Users\2023a\Downloads\lapping_machine\blender_models\frame_preview.png'
+Info: Saved as "lapping_machine_blockout.blend"
+INSERT_FRAME_PASS_SAVED
+Blender 5.2.0 LTS (hash fbe6228777e7 built 2026-07-14 01:35:40)

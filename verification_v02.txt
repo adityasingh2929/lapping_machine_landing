@@ -1,0 +1,17 @@
+Saved viewport: material preview, perspective, extras/relationships hidden
+Saved viewport: material preview, perspective, extras/relationships hidden
+Saved viewport: material preview, perspective, extras/relationships hidden
+Saved viewport: material preview, perspective, extras/relationships hidden
+Saved viewport: material preview, perspective, extras/relationships hidden
+Saved viewport: material preview, perspective, extras/relationships hidden
+Saved viewport: material preview, perspective, extras/relationships hidden
+Saved viewport: material preview, perspective, extras/relationships hidden
+Saved viewport: material preview, perspective, extras/relationships hidden
+Saved viewport: material preview, perspective, extras/relationships hidden
+Presentation objects hidden only in viewport; enabled for rendering
+Machine geometry remains visible with root marker hidden
+Rebuild: 116 generated objects before/after; unrelated sentinel unchanged
+S1: centered hollow manifold ring; inner radius 0.127
+S2: centered hollow manifold ring; inner radius 0.127
+S3: centered hollow manifold ring; inner radius 0.127
+All generation assertions (separation, fit, alignment, clearances, framing) rerun successfully

@@ -1,0 +1,10 @@
+S1 plate edge margin: 0.03000 m
+S2 plate edge margin: 0.03000 m
+S1-S2 ring gap: 0.03909 m
+S3 plate edge margin: 0.03000 m
+S1-S3 ring gap: 0.03909 m
+S2-S3 ring gap: 0.03909 m
+Head clearance: 0.07300 m
+All head/shaft/cylinder XY centers checked against shared station positions.
+Columns outside tabletop; console clears front column.
+Upper connections are provisional, not verified concealed fabrication.

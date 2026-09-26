@@ -1,0 +1,133 @@
+[
+  {
+    "name": "IF_Preview_Insert",
+    "position": [
+      -0.3199999928474426,
+      -0.6000000238418579,
+      1.3899999856948853
+    ],
+    "dimensions": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "hidden": false,
+    "modifiers": []
+  },
+  {
+    "name": "IF_S1_Insert_Opening_0",
+    "position": [
+      0.0,
+      -0.17973999679088593,
+      0.7509999871253967
+    ],
+    "dimensions": [
+      0.057999998331069946,
+      0.057999998331069946,
+      0.029999999329447746
+    ],
+    "hidden": true,
+    "modifiers": []
+  },
+  {
+    "name": "IF_S1_Insert_Opening_1",
+    "position": [
+      -0.0689999982714653,
+      -0.18974000215530396,
+      0.7509999871253967
+    ],
+    "dimensions": [
+      0.05999999865889549,
+      0.05999999865889549,
+      0.029999999329447746
+    ],
+    "hidden": true,
+    "modifiers": []
+  },
+  {
+    "name": "IF_S1_Insert_Opening_2",
+    "position": [
+      0.06400000303983688,
+      -0.1917399913072586,
+      0.7509999871253967
+    ],
+    "dimensions": [
+      0.06199999898672104,
+      0.06199999898672104,
+      0.029999999329447746
+    ],
+    "hidden": true,
+    "modifiers": []
+  },
+  {
+    "name": "IF_S1_Insert_Opening_3",
+    "position": [
+      -0.0430000014603138,
+      -0.24973998963832855,
+      0.7509999871253967
+    ],
+    "dimensions": [
+      0.057999998331069946,
+      0.057999998331069946,
+      0.029999999329447746
+    ],
+    "hidden": true,
+    "modifiers": []
+  },
+  {
+    "name": "IF_S1_Insert_Opening_4",
+    "position": [
+      0.039000000804662704,
+      -0.25473999977111816,
+      0.7509999871253967
+    ],
+    "dimensions": [
+      0.05999999865889549,
+      0.05999999865889549,
+      0.029999999329447746
+    ],
+    "hidden": true,
+    "modifiers": []
+  },
+  {
+    "name": "IF_S1_Perforated_Insert",
+    "position": [
+      0.0,
+      -0.17973999679088593,
+      0.7509999871253967
+    ],
+    "dimensions": [
+      0.25200000405311584,
+      0.25200000405311584,
+      0.00800000037997961
+    ],
+    "hidden": false,
+    "modifiers": [
+      [
+        "Opening IF_S1_Insert_Opening_0",
+        "BOOLEAN",
+        "IF_S1_Insert_Opening_0"
+      ],
+      [
+        "Opening IF_S1_Insert_Opening_1",
+        "BOOLEAN",
+        "IF_S1_Insert_Opening_1"
+      ],
+      [
+        "Opening IF_S1_Insert_Opening_2",
+        "BOOLEAN",
+        "IF_S1_Insert_Opening_2"
+      ],
+      [
+        "Opening IF_S1_Insert_Opening_3",
+        "BOOLEAN",
+        "IF_S1_Insert_Opening_3"
+      ],
+      [
+        "Opening IF_S1_Insert_Opening_4",
+        "BOOLEAN",
+        "IF_S1_Insert_Opening_4"
+      ]
+    ]
+  }
+]

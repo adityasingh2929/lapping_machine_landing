@@ -1,0 +1,15 @@
+00:03.187  blend            | Read blend: "C:\Users\2023a\Downloads\lapping_machine\blender_models\lapping_machine_blockout.blend"
+C:\Users\2023a\Downloads\lapping_machine\blender_models\generate_blockout.py:167: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(name);m.use_nodes=True;m.diffuse_color=(*color,1)
+00:19.328  image.write      | ERROR OpenImageIO write failed: Could not open file "\.thumbnails\large\blender_23240_ebe094077cbbbbc5996745b2bf0871c7.png.png"
+00:22.296  cycles           | WARNING Could not open database file: C:\Users\2023a\AppData\Local/NVIDIA/OptixCache/optix7cache.db
+                            | Unable to initialize the OptiX cache database at path C:\Users\2023a\AppData\Local/NVIDIA/OptixCache/optix7cache.db. Delete or rename the file if this problem persists.
+01:43.671  render           | Saved: 'C:\Users\2023a\Downloads\lapping_machine\blender_models\pneumatics_complete.png'
+01:46.312  cycles           | WARNING Could not open database file: C:\Users\2023a\AppData\Local/NVIDIA/OptixCache/optix7cache.db
+                            | Unable to initialize the OptiX cache database at path C:\Users\2023a\AppData\Local/NVIDIA/OptixCache/optix7cache.db. Delete or rename the file if this problem persists.
+03:32.828  render           | Saved: 'C:\Users\2023a\Downloads\lapping_machine\blender_models\pneumatics_closeup.png'
+Info: Saved as "lapping_machine_blockout.blend"
+PNEUMATIC_ADDITION_OK {"existing_objects_unchanged": 265, "pneumatic_parts": 156, "editable_hoses": 9, "rerun_duplicate_check": true, "clearance_conflicts": [], "approximate": "Under-beam link and obscured bends; hidden distribution circuit omitted. External supply intentionally shortened."}
+Blender 5.2.0 LTS (hash fbe6228777e7 built 2026-07-14 01:35:40)
+
+Blender quit

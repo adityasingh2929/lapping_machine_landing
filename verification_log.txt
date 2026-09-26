@@ -1,0 +1,20 @@
+00:09.906  blend            | Read blend: "C:\Users\2023a\Downloads\lapping_machine\blender_models\lapping_machine_blockout.blend"
+C:\Users\2023a\Downloads\lapping_machine\blender_models\generate_blockout.py:83: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat.use_nodes = True
+C:\Users\2023a\Downloads\lapping_machine\blender_models\generate_blockout.py:294: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world.use_nodes=True;world.node_tree.nodes['Background'].inputs[0].default_value=(.35,.39,.45,1)
+BLOCKOUT_CHECKS_OK
+S1 plate edge margin: 0.03000 m
+S2 plate edge margin: 0.03000 m
+S1-S2 ring gap: 0.03909 m
+S3 plate edge margin: 0.03000 m
+S1-S3 ring gap: 0.03909 m
+S2-S3 ring gap: 0.03909 m
+Head clearance: 0.07300 m
+All head/shaft/cylinder XY centers checked against shared station positions.
+Columns outside tabletop; console clears front column.
+Upper connections are provisional, not verified concealed fabrication.
+REBUILD_PRESERVATION_OK: 115 owned objects before/after; unrelated sentinel unchanged
+Blender 5.2.0 LTS (hash fbe6228777e7 built 2026-07-14 01:35:40)
+
+Blender quit

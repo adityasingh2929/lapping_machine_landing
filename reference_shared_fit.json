@@ -1,0 +1,7 @@
+{
+  "head_z_translation": 0.038193303851638605,
+  "station_radius_scale": 0.9462335411666358,
+  "beam_z_translation": 0.005488394152527689,
+  "cylinder_z_translation": 0.03791856712540484,
+  "note": "Diagnostic joint fit, not automatically applied. Camera parameters independent per photo; geometry parameters shared."
+}

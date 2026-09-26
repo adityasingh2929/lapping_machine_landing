@@ -1,8 +1,12 @@
 """Export the saved machine for the website. Never save edits to the source .blend."""
-import bpy,os,math,json
+import bpy,os,math,json,sys,hashlib
 from mathutils import Vector
 F=os.path.dirname(os.path.dirname(os.path.abspath(__file__)));OUT=os.path.join(F,'docs','assets')
 os.makedirs(OUT,exist_ok=True)
+blue='--blue' in sys.argv
+slug='micro-blue' if blue else 'micro-mlp42'
+source_hash=hashlib.sha256(open(bpy.data.filepath,'rb').read()).hexdigest()
+if blue:assert bpy.context.scene.get('BM_working_parts_photo_match'), 'Blue source is missing the latest plate corrections'
 s=bpy.context.scene;root=bpy.data.objects['LM_ROOT_Move_Complete_Machine']
 if bpy.context.object and bpy.context.object.mode != 'OBJECT':bpy.ops.object.mode_set(mode='OBJECT')
 assert s.get('NP_supplied_nameplates') and s.get('VP_reference_valves')
@@ -67,5 +71,6 @@ for mat in model.data.materials:
 dec=model.modifiers.new('Web coplanar optimization','DECIMATE');dec.decimate_type='DISSOLVE';dec.angle_limit=.0087
 bpy.ops.object.modifier_apply(modifier=dec.name)
 model.data.calc_loop_triangles();print('WEB_TRIANGLES',len(model.data.loop_triangles),flush=True)
-bpy.ops.export_scene.gltf(filepath=os.path.join(OUT,'micro-mlp42.glb'),export_format='GLB',use_selection=True,export_apply=True,export_animations=False,export_cameras=False,export_lights=False,export_draco_mesh_compression_enable=True,export_draco_mesh_compression_level=6)
-print('WEB_GLB_BYTES',os.path.getsize(os.path.join(OUT,'micro-mlp42.glb')),flush=True)
+bpy.ops.export_scene.gltf(filepath=os.path.join(OUT,slug+'.glb'),export_format='GLB',use_selection=True,export_apply=True,export_animations=False,export_cameras=False,export_lights=False,export_draco_mesh_compression_enable=True,export_draco_mesh_compression_level=6)
+json.dump({'source':os.path.basename(bpy.data.filepath),'source_sha256':source_hash,'triangles':len(model.data.loop_triangles),'objects_exported':len(objects)},open(os.path.join(OUT,slug+'-source.json'),'w'),indent=2)
+print('WEB_GLB_BYTES',os.path.getsize(os.path.join(OUT,slug+'.glb')),flush=True)

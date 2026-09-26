@@ -1,0 +1,45 @@
+00:02.609  blend            | Read blend: "C:\Users\2023a\Downloads\lapping_machine\blender_models\lapping_machine_blockout_v02.blend"
+C:\Users\2023a\Downloads\lapping_machine\blender_models\generate_blockout_v02.py:92: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat.use_nodes = True
+C:\Users\2023a\Downloads\lapping_machine\blender_models\generate_blockout_v02.py:314: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world.use_nodes=True
+BLOCKOUT_V02_CHECKS_OK
+S1 plate edge margin: 0.03000 m
+S2 plate edge margin: 0.03000 m
+S1-S2 ring gap: 0.03909 m
+S3 plate edge margin: 0.03000 m
+S1-S3 ring gap: 0.03909 m
+S2-S3 ring gap: 0.03909 m
+Head clearance: 0.12500 m
+All head/shaft/cylinder XY centers checked against shared station positions.
+Columns outside tabletop; console clears front column.
+Upper connections are provisional, not verified concealed fabrication.
+V02_Ortho_Front: complete-machine bounds within 5.5% frame margins
+V02_Ortho_Side: complete-machine bounds within 5.5% frame margins
+V02_Ortho_Top: complete-machine bounds within 5.5% frame margins
+V02_Perspective_Front_11: complete-machine bounds within 5.5% frame margins
+V02_Perspective_Side_5: complete-machine bounds within 5.5% frame margins
+V02_ThreeQuarter_Front_10: complete-machine bounds within 5.5% frame margins
+V02_ThreeQuarter_Rear_6: complete-machine bounds within 5.5% frame margins
+V02_VERIFICATION_OK
+Saved viewport: material preview, perspective, extras/relationships hidden
+Saved viewport: material preview, perspective, extras/relationships hidden
+Saved viewport: material preview, perspective, extras/relationships hidden
+Saved viewport: material preview, perspective, extras/relationships hidden
+Saved viewport: material preview, perspective, extras/relationships hidden
+Saved viewport: material preview, perspective, extras/relationships hidden
+Saved viewport: material preview, perspective, extras/relationships hidden
+Saved viewport: material preview, perspective, extras/relationships hidden
+Saved viewport: material preview, perspective, extras/relationships hidden
+Saved viewport: material preview, perspective, extras/relationships hidden
+Presentation objects hidden only in viewport; enabled for rendering
+Machine geometry remains visible with root marker hidden
+Rebuild: 116 generated objects before/after; unrelated sentinel unchanged
+S1: centered hollow manifold ring; inner radius 0.127
+S2: centered hollow manifold ring; inner radius 0.127
+S3: centered hollow manifold ring; inner radius 0.127
+All generation assertions (separation, fit, alignment, clearances, framing) rerun successfully
+EEVEE_PROPERTIES ['rna_type', 'gi_diffuse_bounces', 'gi_cubemap_resolution', 'gi_visibility_resolution', 'gi_glossy_clamp', 'gi_irradiance_pool_size', 'taa_samples', 'taa_render_samples', 'use_taa_reprojection', 'ray_tracing_method', 'use_shadow_jitter_viewport', 'clamp_surface_direct', 'clamp_surface_indirect', 'clamp_volume_direct', 'clamp_volume_indirect', 'direct_light_intensity', 'indirect_light_intensity', 'volumetric_start', 'volumetric_end', 'volumetric_tile_size', 'volumetric_samples', 'volumetric_sample_distribution', 'volumetric_ray_depth', 'volumetric_light_clamp', 'use_volumetric_shadows', 'volumetric_shadow_samples', 'use_volume_custom_range', 'use_fast_gi', 'fast_gi_thickness_near', 'fast_gi_quality', 'fast_gi_step_count', 'fast_gi_ray_count', 'fast_gi_method', 'fast_gi_distance', 'fast_gi_bias', 'fast_gi_resolution', 'bokeh_max_size', 'bokeh_threshold', 'bokeh_neighbor_max', 'use_bokeh_jittered', 'bokeh_overblur', 'motion_blur_depth_scale', 'motion_blur_max', 'motion_blur_steps', 'use_shadows', 'shadow_pool_size', 'shadow_ray_count', 'shadow_step_count', 'light_threshold', 'use_overscan', 'overscan_size', 'ray_tracing_options', 'use_raytracing', 'shadow_resolution_scale']
+Blender 5.2.0 LTS (hash fbe6228777e7 built 2026-07-14 01:35:40)
+
+Blender quit

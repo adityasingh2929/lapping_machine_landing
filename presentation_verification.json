@@ -1,0 +1,51 @@
+{
+  "reopened_successfully": true,
+  "base_bounds_preserved": 104,
+  "packed_image_textures": [],
+  "fonts": [
+    "<builtin>"
+  ],
+  "editable_text_objects": 71,
+  "selected_objects": 0,
+  "opening_camera": "MD_Preview_Complete",
+  "opening_view_clean": true,
+  "camera_count": 14,
+  "light_count": 3,
+  "label_dependencies": "Built-in editable text and procedural materials; no external bitmap textures",
+  "model_limitation": "Photo-based visual reconstruction; dimensions estimated. Badge typography simplified and unreadable small print omitted.",
+  "finished_render_checks": [
+    {
+      "file": "finished_front.png",
+      "size": [
+        1600,
+        1600
+      ],
+      "visual_inspection_completed": true
+    },
+    {
+      "file": "finished_opposite.png",
+      "size": [
+        1600,
+        1600
+      ],
+      "visual_inspection_completed": true
+    },
+    {
+      "file": "finished_working.png",
+      "size": [
+        1600,
+        1600
+      ],
+      "visual_inspection_completed": true
+    },
+    {
+      "file": "finished_console.png",
+      "size": [
+        1600,
+        1600
+      ],
+      "visual_inspection_completed": true
+    }
+  ],
+  "visual_review": "Inspected all four final renders. Corrected wordmark spacing, label contrast, metal glare and overview framing. No conspicuous stretched labels, texture noise or missing textures. Physical occlusion varies by camera."
+}

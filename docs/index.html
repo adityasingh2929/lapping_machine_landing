@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Micro MLP 42 — Amardeep Enterprise</title>
-  <meta name="description" content="Explore the Micro MLP 42 lapping machine in interactive 3D. View the working assembly, individual pneumatic controls and machine specifications.">
+  <title>Micro Lapping Machines — Amardeep Enterprise</title>
+  <meta name="description" content="Explore two Micro lapping machines in interactive 3D. Switch between the original grey machine and the blue machine to inspect their working assemblies and controls.">
   <meta name="theme-color" content="#eeefec">
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23262d31'/%3E%3Ccircle cx='16' cy='17' r='9' fill='none' stroke='%23eeefec' stroke-width='5'/%3E%3Cpath d='M10 7Q16 2 22 7' fill='none' stroke='%23bd342b' stroke-width='5'/%3E%3C/svg%3E">
   <link rel="stylesheet" href="style.css">
@@ -18,9 +18,10 @@
 </header>
 <main id="top">
 <section class="hero" aria-labelledby="hero-title">
-  <div class="hero-copy"><p class="eyebrow"><span></span> MICRO / MLP 42</p><h1 id="hero-title">Precision.<br>From every<br><em>angle.</em></h1><p class="intro">Meet the Micro MLP 42 lapping machine. Explore its working assembly, pneumatic controls and every considered detail.</p><a class="text-link" href="#machine">Take a closer look <span aria-hidden="true">↗</span></a><div class="hero-meta"><span>LAPPING MACHINE</span><span>AMARDEEP ENTERPRISE</span></div></div>
+  <div class="hero-copy"><p class="eyebrow"><span></span> MACHINE 1 / MICRO MLP 42</p><h1 id="hero-title">Machine <em>1.</em></h1><p class="intro">Meet the Micro MLP 42 lapping machine. Explore its working assembly, pneumatic controls and every considered detail.</p><a class="text-link" href="#machine">Take a closer look <span aria-hidden="true">↗</span></a><div class="hero-meta"><span>LAPPING MACHINE</span><span>AMARDEEP ENTERPRISE</span></div></div>
   <div class="viewer-wrap" id="machine">
-    <span class="viewer-kicker">01 / INTERACTIVE PRODUCT VIEW</span><span class="viewer-watermark" aria-hidden="true">MLP 42</span>
+    <div class="machine-picker" role="group" aria-label="Choose a machine"><button data-machine="original" aria-pressed="true" class="active"><i class="swatch grey" aria-hidden="true"></i><span>Machine 1<span>Grey machine</span></span></button><button data-machine="blue" aria-pressed="false"><i class="swatch blue" aria-hidden="true"></i><span>Machine 2<span>Blue machine</span></span></button></div>
+    <span class="viewer-watermark" aria-hidden="true">MLP 42</span>
     <model-viewer id="viewer" src="assets/micro-mlp42.glb" poster="assets/machine-poster.png" alt="Interactive Micro MLP 42 lapping machine with three pneumatic cylinder stations, a circular working plate and sloped control console. Drag or use arrow keys to rotate; scroll or pinch to zoom." camera-controls touch-action="pan-y" camera-orbit="-25deg 72deg 105%" min-camera-orbit="auto 15deg 38%" max-camera-orbit="auto 90deg 180%" field-of-view="30deg" environment-image="neutral" exposure="1" shadow-intensity="0.7" shadow-softness="0.8" tone-mapping="neutral" interaction-prompt="none" loading="eager">
       <div slot="progress-bar" class="loading" role="status"><span class="loader-track"><span id="progress"></span></span><span id="loading-label">Preparing your 3D view…</span></div>
       <button class="poster-button" slot="poster" aria-label="Load interactive 3D machine"><img src="assets/machine-poster.png" alt="Micro MLP 42 lapping machine" width="640" height="800"><span>Explore in 3D <b aria-hidden="true">↗</b></span></button>

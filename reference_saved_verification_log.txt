@@ -1,0 +1,24 @@
+00:07.609  blend            | Read blend: "C:\Users\2023a\Downloads\lapping_machine\blender_models\lapping_machine_blockout.blend"
+REFERENCE_REOPEN_VERIFIED {
+  "reference_cameras": 16,
+  "missing_objects": [],
+  "stations": {
+    "1": {
+      "clearance": 0.11100000143051147,
+      "xy_alignment_error": 3.725290298461914e-09
+    },
+    "2": {
+      "clearance": 0.11100000143051147,
+      "xy_alignment_error": 2.2137284882375436e-08
+    },
+    "3": {
+      "clearance": 0.11100000143051147,
+      "xy_alignment_error": 2.2137284882375436e-08
+    }
+  },
+  "embedded_script_matches": true,
+  "geometry_sha256": "e6ac953a8c79b9671c96a3b6169bed82544b4ffb79fe47e9a0851e2076a3ac9f"
+}
+Blender 5.2.0 LTS (hash fbe6228777e7 built 2026-07-14 01:35:40)
+
+Blender quit

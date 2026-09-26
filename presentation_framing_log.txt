@@ -1,0 +1,3 @@
+00:04.468  blend            | Read blend: "C:\Users\2023a\Downloads\lapping_machine\blender_models\lapping_machine_blockout.blend"
+00:31.890  cycles           | WARNING HIPEW initialization failed: Error opening HIP dynamic library
+00:32.125  image.write      | ERROR OpenImageIO write failed: Could not open file "\.thumbnails\large\blender_5920_ebe094077cbbbbc5996745b2bf0871c7.png.png"
